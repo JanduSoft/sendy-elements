@@ -1,4 +1,8 @@
 <?php
+
+// We need to include this in order to extend from Action_Base
+use ElementorPro\Modules\Forms\Widgets\Form\Classes;
+
 /**
  * Class Sendy_Action_After_Submit
  * @see https://developers.elementor.com/custom-form-action/
